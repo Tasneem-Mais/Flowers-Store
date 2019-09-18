@@ -72,7 +72,6 @@ function reduce(array, f, acc) {
 //  return this.cake + this.music + this.flowers + this.venues;
 // }
 
-
 var addCake = function() {
 
 
@@ -114,6 +113,7 @@ var addCake = function(cakeName, cakePrice, cakeImg) {
 
 
 
+var plansArr =[];
 
 $('#start').click(function() {
 
@@ -132,12 +132,15 @@ $('#start').click(function() {
     //console.log(c1Name, c1Price, c1Img);
 
     plan.addCake(c1Name, c1Price, c1Img);
+    plansArr.push(plan);
+    console.log(plansArr);
   } 
+
 
 });
 
 $('#display').click(function() {
-
+  
 })
 
 
