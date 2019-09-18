@@ -1,0 +1,35 @@
+.Box {
+	display: flex;
+	height: 500px;
+	justify-content: space-around;
+}
+.singleBox {
+	width: 100%;
+	height: 300px;
+	border: ;
+
+}
+#select {
+	color: #FFA726;
+	background-color: #FBE9E7;
+	width: 90px;
+	height: 40px;
+}
+#welcome-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#start {
+	color: #FFA726;
+	background-color: #FBE9E7;
+	width: 500px;
+	height: 70px;
+	font-size: 40px;
+	font-family: 'Shadows Into Light', cursive;
+}
+#navbar {
+	position: fixed;
+	
+}
