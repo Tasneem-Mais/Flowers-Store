@@ -100,6 +100,9 @@ var plansArr =[];
 
 //create plan button
 $('#startPlan').click(function() {
+
+   $('#showPlan').css("visibility", "visible");
+
  var name = $('#name').val();
  var wDate = $('#date').val();
  var plan = Plan(name, wDate);
@@ -339,7 +342,8 @@ if($('#fo2Select').prop('checked')){
 
 
 $('#showPlan').click(function() {
- 
+   $('#myPlan').css("visibility", "visible");
+   $('#startPlan').css("visibility", "hidden");
   // cake
    $('#myCake').attr('src', plansArr[0]["cake"].img);
    $('#myCakeName').text(plansArr[0]["cake"].name);
