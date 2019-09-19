@@ -29,7 +29,8 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-#start {
+.start {
+	border-radius: 25px;
 	color: #455A64;
 	background-color: #FBE9E7;
 	width: 500px;
@@ -41,7 +42,6 @@ body{
 	text-align: center;
 	margin: 20px;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding-bottom: 20px;
@@ -67,4 +67,24 @@ a {
 	text-decoration: none;
 	color: #455A64;
 	font-family: 'Kaushan Script', cursive; 
+}
+#name {
+	background-color: #455A64;
+	color :#FCE4EC;
+	width: 200px;
+	height: 40px;
+	border-radius: 25px;
+	font-size: 20px;
+}
+#show {
+	display: flex;
+	justify-content: center;
+}
+#date {
+	background-color: #455A64;
+	color :#FCE4EC;
+	width: 200px;
+	height: 40px;
+	border-radius: 25px;
+	font-size: 20px;
 }

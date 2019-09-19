@@ -9,22 +9,23 @@
 
 
   	<section id="welcome-section">
+
   		<h1> DAFF </h1>
   		<h2> The straightforward guide to planning your wedding </h2>
   		<img src="BGpic.jpg" alt="flower here">
   		<br>
   		<hr>  	
-  		<input type="text" name="nameInput" placeholder="Your Name..." id="name">
+  		<p> Name <input type="text" name="nameInput" placeholder="Your Name..." id="name"></p>
   		<br>
-  		<input type="date" name="nameInput" placeholder="choose Date" id="date">
+  		<p> Holy Date <input type="date" name="nameInput" placeholder="choose Date" id="date"></p>
   		<br>
-  		<button id="start"> Start your Plan </button>
+  		<button class="start"> Start your Plan </button>
   		
    <nav id="navbar">
-    <button class="nav"> <a href="#welcome-section" class="nav-link"> Cake </a> </button>
-        <button class="nav"> <a href="#Cake" class="nav-link"> Music </a> </button>
-        <button class="nav"> <a href="#Contact" class="nav-link"> Flowers </a> </button>
-        <button class="nav"> <a href="#Contact" class="nav-link"> Vuens </a> </button>
+        <button class="nav"> <a href="#Cake" class="nav-link"> Cake </a> </button>
+        <button class="nav"> <a href="#flower" class="nav-link"> Themes </a> </button>
+        <button class="nav"> <a href="#invitations" class="nav-link"> invitations </a> </button>
+        <button class="nav"> <a href="#Contact" class="nav-link"> Food </a> </button>
     </nav>
 
   	</section>
@@ -72,14 +73,6 @@
   		</div>
   	</section>
 
-
-
-
-    <a href="displayPlan.html"> <button>Show My Plan</button> </a>
-    <script type="text/javascript" src="myScript.js"></script>
-    
-
-
 <section id="flower">
 
       <h2> Selecting a wedding cake designer </h2>
@@ -89,7 +82,7 @@
         <div id="flower1" class="singleBox">
 
           <img id="f1Img" src="flower1.jpeg" >
-          <p id="f1Name" >Lemon drizzle with Lemon curd/ganache </p> 
+          <p id="f1Name" > In-house catering option </p> 
           <p id="f1Price"><strong> $24.99 - $59.99 </strong><big> SALE </big></p>
           <p><del>$24.99 - $59.99</del></p> 
           <input type="checkbox" id="f1Select">
@@ -167,12 +160,43 @@
       </div>
     </section>
 
+    <section>
+      <h2>Food</h2>
+     <div class="Box">
+       <div id="food1" class="singleBox">
+         <img id="fo1Img" src="food1.jpeg" >
+         <p id="fo1Name" >Snaks </p>
+         <p id="fo1Price"><strong> $99.9 - $199.99 </strong><big> SALE </big></p>
+         <p><del>$199.99 - $299.99</del></p>
+         <input type="checkbox" id="fo1Select">
+       </div>
+       <div id="food2" class="singleBox">
+         <img id="fo2Img" src="food2.jpeg">
+         <p id="fo2Name">Burger</p>
+         <p id="fo2Price"><strong> $200 - $300 </strong>  </p>
+         <input type="checkbox" id="fo2Select">
+       </div>
+       <div id="food3" class="singleBox">
+         <img id="fo3Img" src="food3.jpeg">
+         <p id="fo3Name">veges </p>
+         <p id="fo3Price"><strong> $200 </strong></p>
+         <input type="checkbox" id="fo3Select">
+       </div>
+       <div id="food4" class="singleBox">
+         <img id="fo4Img" src="food4.jpeg">
+         <p id="fo4Name">Meals</p>
+         <p id="fo4price"><strong> $500 - $800 </strong></p>
+         <input type="checkbox" id="fo4Select">
+       </div>
+     </div>
+    </section>
 
 
-
-
-
-
+    <div id="show">
+      <a href="displayPlan.html" > <button class="start">Show My Plan</button> </a>
+      <script type="text/javascript" src="myScript.js"></script>
+    </div>
+    
 
 
 </body>
