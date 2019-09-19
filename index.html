@@ -9,16 +9,13 @@
 
   <div id="titlediv">
     <div id="title">
-      <h1> DAFF </h1>
+      <h1 id="webName"> DAFF </h1>
       <h2> The straightforward guide to planning your wedding </h2>
     </div>
     <img src="BGpic.jpg" alt="background img" id="BGimg">
   </div>
-  
+  <hr>
   	<section id="welcome-section">
-  	
-  		  <br>
-  		  <hr>
         <nav id="navbar">
           <button class="nav"> <a href="#Cake" class="nav-link"> Cake </a> </button>
           <button class="nav"> <a href="#flower" class="nav-link"> Themes </a> </button>
@@ -26,15 +23,14 @@
           <button class="nav"> <a href="#food" class="nav-link"> Food </a> </button>
       </nav>  
       <div>
-        <p> Name <input type="text" name="nameInput" placeholder="Your Name..." id="name"></p>
-        <br>
-        <p> Date <input type="date" name="nameInput" placeholder="choose Date" id="date"></p>
+        <label>Name  <input type="text" name="nameInput" class="Info"></label> 
+         <br>
+         <br>
+         <label> Date     <input type="date" name="nameInput" class="Info"></label>
       </div>	
   		
   		<br>
-  		
-
-     
+      <h2></h2>
 
   	</section>
 
@@ -203,14 +199,17 @@
     </section>
 
     <div id="show">
-      <button id="startPlan"class="start"> Start your Plan </button>
+      <button id="startPlan"class="start"> Create My Plan </button>
       <button id="showPlan" class="start">Show My Plan</button>
     </div>
     
-     <section id="myPlan">
-      <h1 id="cong"> Congratulations </h1>
-      <h3 id="bridName"></h3>
-      <h2> SAVE THE DATE  </h2>
+     <div id="myPlan">
+      <div id="planList"> 
+        <h2 > Congratulations </h1>
+        <h3 id="bridName"></h3>
+        <h2> SAVE THE DATE  </h2>
+      </div>
+      
 
       <div class="Box">
 
@@ -239,7 +238,7 @@
           <p id="myFoodPrice"><strong> </strong></p>
         </div>
       </div>
-    </section>
+    </div>
 
     <script type="text/javascript" src="myScript.js"></script>
 </body>

@@ -1,9 +1,10 @@
 body{
-	background-color:#FFF3E0;
+	background-color:#E6E3E3;
 }
+
 #titlediv{
 	width: 100%;
-	height: 700px;
+	height: 900px;
 	top:0; 
 }
 #BGimg {
@@ -14,12 +15,18 @@ body{
   	z-index: -1;
 }
 #title {
+	font-family: 'Special Elite', cursive;
+	font-size: 90px;
 	position: relative;
-	color: #37474F;
+	color: #464243;
 	width: 100%;
-	left: 35%;
-	top: 50%;
+	left: 30%;
+	top: 40%;
 	font-size: 30px
+}
+#title h1 {
+	margin: 80px;
+	font-size: 120px;
 }
 
 #welcome-section {
@@ -28,7 +35,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 400px;
+	height: 150px;
 }
 
 .Box {
@@ -85,28 +92,20 @@ body{
 h2{
 	margin: 20px;
 	font-family: 'Special Elite', cursive;
-	font-size: 35px;
-	color: #455A64;
+	font-size: 45px;
+	color: #464243;
 }
 a {
 	text-decoration: none;
 	color: #455A64;
 	font-family: 'Kaushan Script', cursive; 
 }
-#name {
-	background-color: #455A64;
-	color :#FCE4EC;
-	width: 200px;
-	height: 40px;
-	border-radius: 25px;
-	font-size: 20px;
+label {
+	font-size: 25px;
+	font-family: 'Special Elite', cursive;
 }
-#show {
-	display: flex;
-	justify-content: center;
-}
-#date {
-	background-color: #455A64;
+.Info {
+	background-color: #FFF7F9;
 	border-color :#FCE4EC;
 	width: 200px;
 	height: 40px;
@@ -114,6 +113,22 @@ a {
 	font-size: 20px;
 	border-style: solid;
 }
+#show {
+	display: flex;
+	justify-content: center;
+}
+
 #myPlan {
 	visibility: hidden;
 }
+
+#showPlan {
+	visibility: hidden;
+}
+#planList {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
