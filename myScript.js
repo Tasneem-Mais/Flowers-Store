@@ -332,5 +332,39 @@ if($('#fo2Select').prop('checked')){
 
 
 
-$('#display').click(function() {
+// $('#nextPage').click(function() {
+//   //var msg = $('<p id = "msg">').text(plan[0].name)
+//   $('#congrates').text("GGGGGGGGggg");
+// })
+
+
+$('#showPlan').click(function() {
+ 
+  // cake
+   $('#myCake').attr('src', plansArr[0]["cake"].img);
+   $('#myCakeName').text(plansArr[0]["cake"].name);
+   $('#myCakePrice').text(plansArr[0]["cake"].price);
+
+   // flower
+   $('#myFlower').attr('src', plansArr[0]["flower"].img);
+   $('#myFlowerName').text(plansArr[0]["flower"].name);
+   $('#myFlowerPrice').text(plansArr[0]["flower"].price);
+
+    // invitation
+   $('#myInvitation').attr('src', plansArr[0]["card"].img);
+   $('#myInvitationName').text(plansArr[0]["card"].name);
+   $('#myInvitationPrice').text(plansArr[0]["card"].price);
+
+   // Food
+   $('#myFood').attr('src', plansArr[0]["food"].img);
+   $('#myFoodName').text(plansArr[0]["food"].name);
+   $('#myFoodPrice').text(plansArr[0]["food"].price);
+
+
 })
+
+
+
+
+
+
