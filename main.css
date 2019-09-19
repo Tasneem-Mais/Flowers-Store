@@ -28,7 +28,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 500px;
+	height: 400px;
 }
 
 .Box {
@@ -113,4 +113,7 @@ a {
 	border-radius: 25px;
 	font-size: 20px;
 	border-style: solid;
+}
+#myPlan {
+	visibility: hidden;
 }
